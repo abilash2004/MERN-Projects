@@ -7,7 +7,7 @@ const userRoutes = require("./routes/users");
 const authRoutes = require("./routes/auth");
 const passwordResetRoutes = require("./routes/passwordReset");
 const urlRoute = require("./routes/url");
-
+const PORT = process.env.PORT || 8000
 // database connection
 connection();
 
@@ -37,5 +37,4 @@ app.get("/:shortId", async (req, res) => {
   res.redirect(entry.redirectURL);
 });
 
-const port = process.env.PORT;
-app.listen(port, console.log(`Listening on port ${port}...`));
+app.listen(PORT, console.log(`Listening on port ${PORT}...`));
