@@ -8,7 +8,7 @@ const PasswordReset = () => {
     const [msg, setMsg] = useState("");
     const [error, setError] = useState("");
     const param = useParams();
-    const url = `http://localhost:8000/api/password-reset/${param.id}/${param.token}`;
+    const url = `https://auth-8w9a.onrender.com/api/password-reset/${param.id}/${param.token}`;
     const [loading, setLoading] = useState(true); // New state for loading
 
     useEffect(() => {

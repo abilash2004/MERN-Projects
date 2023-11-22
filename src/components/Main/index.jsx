@@ -12,7 +12,7 @@ const Main = () => {
 
 	const handleShortenURL = async () => {
 		try {
-			const response = await axios.post('http://localhost:8000/url', { url });
+			const response = await axios.post('https://auth-8w9a.onrender.com/url', { url });
 			setShortId(response.data.id);
 		} catch (error) {
 			console.error('Error shortening URL:', error);
@@ -66,7 +66,7 @@ const Main = () => {
 					fontFamily: 'Helvetica',
 					fontSize: '25px',
 				}}
-				>http://localhost:8000/{shortId}</p>}
+				>https://auth-8w9a.onrender.com/{shortId}</p>}
 			</div>
 		</div>
 	);

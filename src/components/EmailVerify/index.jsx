@@ -6,14 +6,14 @@ import styles from './styles.module.css';
 
 const EmailVerify = () => {
   const [validUrl, setValidUrl] = useState(false);
-  const [loading, setLoading] = useState(true); // New state for loading
+  const [loading, setLoading] = useState(true);
 
   const { id, token } = useParams();
 
   useEffect(() => {
     const verifyEmailUrl = async () => {
       try {
-        const url = `http://localhost:8000/api/users/${id}/verify/${token}`;
+        const url = `https://auth-8w9a.onrender.com/api/users/${id}/verify/${token}`;
         const { data } = await axios.get(url);
         console.log(data);
         setValidUrl(true);
@@ -21,7 +21,7 @@ const EmailVerify = () => {
         console.log(error);
         setValidUrl(false);
       } finally {
-        setLoading(false); // Set loading to false regardless of success or failure
+        setLoading(false);
       }
     };
 
