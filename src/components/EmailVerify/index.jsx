@@ -13,7 +13,7 @@ const EmailVerify = () => {
   useEffect(() => {
     const verifyEmailUrl = async () => {
       try {
-        const url = `https://auth-8w9a.onrender.com/api/users/${id}/verify/${token}`;
+        const url = `http://localhost:8000/api/users/${id}/verify/${token}`;
         const { data } = await axios.get(url);
         console.log(data);
         setValidUrl(true);
