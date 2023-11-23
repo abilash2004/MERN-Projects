@@ -48,7 +48,7 @@ app.get("/:shortId", async (req, res) => {
     res.status(500).json({ message: "Internal Server Error" });
   }
 });
-app.get("/url", async (req, res) => {
+app.get("/api/url", async (req, res) => {
   try {
     const urls = await URL.find();
     res.json(urls);
