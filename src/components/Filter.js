@@ -26,7 +26,7 @@ export default function Filter() {
           </select>
         </div>
         <div className="col-md-1 custom-margin">
-          <button className="btn bi bi-funnel-fill custom-margin" onClick={handleFilter}>
+          <button className="btn bi bi-funnel-fill buttonn custom-margin" onClick={handleFilter}>
           </button>
         </div>
       </div>

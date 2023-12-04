@@ -16,7 +16,7 @@ function Navbar() {
             backgroundColor: "rgba(249, 246, 246, 0.300)",
         }}>
             <nav className="navbar navbar-expand-lg shadow-lg p-3 rounded" >
-                <a className="navbar-brand pizza-font" href="/" style={{ fontSize: "25px", marginLeft: "10px" }}>
+                <a className="navbar-brand pizza-font av-nam" href="/" style={{ fontSize: "25px", marginLeft: "10px" }}>
                     It's Pizza Time
                 </a>
                 <div className=" navbar-collapse pizza-font" id="navbarNav" style={{ fontSize: "20px" }}>
@@ -31,12 +31,12 @@ function Navbar() {
                                 <li><a class="dropdown-item" href="#" onClick={() => { dispatch(logoutUser()) }}><li class="bi bi-box-arrow-left">      Logout</li></a></li>
                             </ul>
                         </div>) :
-                            (<li className="nav-item">
+                            (<li>
                                 <a className="nav-link bi bi-box-arrow-right" href="/login">
                                     Login
                                 </a>
                             </li>)}
-                        <li className="nav-item ">
+                        <li >
                             <a className="nav-link bi bi-cart3" href="/cart">
                                 Cart {cartstate.cartItems.length}
                             </a>

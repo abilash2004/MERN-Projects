@@ -22,13 +22,13 @@ export default function Ordersscreen() {
       <Navbar />
       <h6 style={{ fontSize: '35px', color: "black", marginTop: "10px" }}>My Orders</h6>
       <hr />
-      <div className="row justify-content-center">
+      <div className="row justify-content-center order">
         {loading && <Loading />}
         {error && <Error error="Something went wrong" />}
         {orders &&
           orders.map((order) => (
             <div
-              className="col-md-8 m-2 p-1"
+              className="col-md-8 m-2 p-1 background"
               data-aos="fade-down"
               style={{ backgroundColor: "rgba(249, 246, 246, 0.300)", backdropFilter: "blur(16px)", borderRadius: "16px" }}
               key={order._id}

@@ -1,22 +1,20 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { registerUser } from "../actions/userAction";
 import Error from "../components/Error";
 import Loading from "../components/Loading";
 import Success from "../components/Success"
-import { Link } from "react-router-dom";
-export default function () {
+export default function Registerscreen() {
   const [name, setname] = useState("");
   const [email, setemail] = useState("");
   const [password, setpassword] = useState("");
   const [cpassword, setcpassword] = useState("");
   const registerstate = useSelector(state => state.registerUserReducer)
   const { error, loading, success } = registerstate
-	const [msg, setMsg] = useState("");
   const dispatch = useDispatch()
   function register() {
 
-    if (password != cpassword) {
+    if (password !== cpassword) {
       alert("passwords not matched")
     }
     else {
