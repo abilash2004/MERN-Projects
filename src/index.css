@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&family=Nunito+Sans:ital,opsz,wght@1,6..12,400;1,6..12,700&family=Oswald&family=Poppins:ital,wght@0,200;1,200;1,600&family=Roboto+Slab:wght@700&family=Source+Code+Pro:ital,wght@1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden !important;
+  background-image: url('./img/imgg.jpg');
+  background-size: 250vh 140vh;
+  background-attachment: fixed;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  background-color: red !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.img-fluid {
+  border-radius: 10px !important;
+}
+
+.fa-plus {
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus {
+  color: red !important;
+  margin: 5px;
+}
+
+.fa-trash {
+  color: red;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(1, 1, 77);
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+
+.adminfunctions li a {
+  color: white !important;
+  padding: 20px;
+}
+
+td,
+th,
+tr {
+  text-align: left;
+}
+
+h3 {
+  font-size: 15px !important;
+}
+
+h2 {
+  font-size: 25px !important;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.nav-link {
+  color: black !important;
+}
+
+.navbar-brand {
+  color: black !important;
+}
+
+h1 {
+  font-size: 20px !important;
+}
+
+.flex-container {
+  display: flex !important;
+}
+
+.btn {
+  background-color: red !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+select {
+  box-shadow: none !important;
+  border-color: black !important;
+}
+
+.fa-plus {
+  color: green;
+  margin: 5px;
+}
+
+.fa-minus {
+  color: red !important;
+  margin: 5px;
+}
+
+.fa-trash {
+  color: red;
+}
+
+input {
+  margin-top: 10px !important;
+  box-shadow: none !important;
+}
+
+.adminfunctions {
+  padding: 10px;
+  background-color: rgb(1, 1, 77);
+}
+
+.adminfunctions li {
+  list-style-type: none !important;
+  display: inline !important;
+  color: white !important;
+}
+
+.adminfunctions li a {
+  color: white !important;
+  padding: 20px;
+}
+
+td,
+th,
+tr {
+  text-align: left;
+}
+@media screen and (min-width: 767px){
+  .form {
+    width: 100px !important;
+    margin-left: 30px;
+    margin-top: 10px !important;
+    justify-content: left !important;
+  }
+  .custom-margin {
+    margin-left: -20px;
+    margin-top: 5px !important;
+  }
+}
+
+.custom-container {
+  border-radius: 30px !important;
+}
+
+.Name {
+  margin-top: 15px !important;
+}
+
+.custom {
+  background-color: rgba(249, 246, 246, 0.167);
+}
+
+.pizza-font {
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(8, 8, 8)
+}
+
+.pizza-name {
+  font-size: 30px !important;
+  font-family: 'Source Code Pro', monospace;
+  color: rgb(0, 6, 9)
+}
+
+.login {
+  width: 340px !important;
+  height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 180px;
+  background-color: rgba(0, 0, 0, 0.139);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+}
+
+.register {
+  width: 300px !important;
+  height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  background-color: rgba(0, 0, 0, 0.139);
+  border-radius: 16px;
+  backdrop-filter: blur(5px)
+}
+
+.table {
+  margin-top: 10px;
+  background-color: rgba(0, 0, 0, 0.139);
+  backdrop-filter: blur(5px);
+  text-align: center !important;
+}
+
+.tab {
+  margin-left: auto !important;
+  margin-right: auto !important;
+  text-align: center !important;
+}
+.addpizza{
+  width: 500px !important;
+  height: auto !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0, 0, 0, 0.139);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  margin-bottom: 5px !important;
+  margin-top: 5px !important;
+}
+.form-control{
+  width: 80% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+.btnn{
+  margin-bottom: 10px !important;
+}
+
+@media screen and (max-width: 767px){
+  .custom-margin{
+    margin-top: 5px !important;
+  }
+  .form{
+    width: 100px !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+    margin-top: 10px !important;
+  }
+  .cartitem{
+    /* justify-content: left !important; */
+    margin-left: 50px;
+  }
+  .order{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+  .background{
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
+} 
+
+@media screen and (max-width: 992px){
+  .nav-link{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  .av-nam{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
