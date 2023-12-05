@@ -1,3 +1,6 @@
+//-------Admin Access-------//
+//demo@gmail.com
+//0000000000
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
